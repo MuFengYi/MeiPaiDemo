@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D01B11F1D054B6500A1E24E /* EditImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D01B11E1D054B6500A1E24E /* EditImageViewController.m */; };
+		2D5FD55A1D06D87400B99D1C /* FitlerScollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD5591D06D87400B99D1C /* FitlerScollView.m */; };
+		2D5FD55F1D06E89200B99D1C /* FitlerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD55D1D06E89200B99D1C /* FitlerCollectionViewCell.m */; };
+		2D5FD5601D06E89200B99D1C /* FitlerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5FD55E1D06E89200B99D1C /* FitlerCollectionViewCell.xib */; };
+		2D5FD5631D06ED8600B99D1C /* FitlerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD5621D06ED8600B99D1C /* FitlerModel.m */; };
+		2D97331C1D050D7D00ADDAB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D97331B1D050D7D00ADDAB0 /* main.m */; };
+		2D97331F1D050D7D00ADDAB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D97331E1D050D7D00ADDAB0 /* AppDelegate.m */; };
+		2D9733221D050D7E00ADDAB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9733211D050D7E00ADDAB0 /* ViewController.m */; };
+		2D9733251D050D7E00ADDAB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9733231D050D7E00ADDAB0 /* Main.storyboard */; };
+		2D9733271D050D7F00ADDAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9733261D050D7F00ADDAB0 /* Assets.xcassets */; };
+		2D97332A1D050D8000ADDAB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9733281D050D8000ADDAB0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D01B11D1D054B6500A1E24E /* EditImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditImageViewController.h; sourceTree = "<group>"; };
+		2D01B11E1D054B6500A1E24E /* EditImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditImageViewController.m; sourceTree = "<group>"; };
+		2D5FD5581D06D87400B99D1C /* FitlerScollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitlerScollView.h; sourceTree = "<group>"; };
+		2D5FD5591D06D87400B99D1C /* FitlerScollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitlerScollView.m; sourceTree = "<group>"; };
+		2D5FD55B1D06E1FC00B99D1C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2D5FD55C1D06E89200B99D1C /* FitlerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitlerCollectionViewCell.h; sourceTree = "<group>"; };
+		2D5FD55D1D06E89200B99D1C /* FitlerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitlerCollectionViewCell.m; sourceTree = "<group>"; };
+		2D5FD55E1D06E89200B99D1C /* FitlerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FitlerCollectionViewCell.xib; sourceTree = "<group>"; };
+		2D5FD5611D06ED8600B99D1C /* FitlerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitlerModel.h; sourceTree = "<group>"; };
+		2D5FD5621D06ED8600B99D1C /* FitlerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitlerModel.m; sourceTree = "<group>"; };
+		2D9733171D050D7900ADDAB0 /* MeiPaiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiPaiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D97331B1D050D7D00ADDAB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D97331D1D050D7D00ADDAB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D97331E1D050D7D00ADDAB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D9733201D050D7D00ADDAB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D9733211D050D7E00ADDAB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D9733241D050D7E00ADDAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D9733261D050D7F00ADDAB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D9733291D050D8000ADDAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D97332B1D050D8000ADDAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D9733141D050D7900ADDAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D97330E1D050D7600ADDAB0 = {
+			isa = PBXGroup;
+			children = (
+				2D9733191D050D7D00ADDAB0 /* MeiPaiDemo */,
+				2D9733181D050D7900ADDAB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D9733181D050D7900ADDAB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D9733171D050D7900ADDAB0 /* MeiPaiDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D9733191D050D7D00ADDAB0 /* MeiPaiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2D97331D1D050D7D00ADDAB0 /* AppDelegate.h */,
+				2D97331E1D050D7D00ADDAB0 /* AppDelegate.m */,
+				2D9733201D050D7D00ADDAB0 /* ViewController.h */,
+				2D9733211D050D7E00ADDAB0 /* ViewController.m */,
+				2D01B11D1D054B6500A1E24E /* EditImageViewController.h */,
+				2D01B11E1D054B6500A1E24E /* EditImageViewController.m */,
+				2D5FD55C1D06E89200B99D1C /* FitlerCollectionViewCell.h */,
+				2D5FD55D1D06E89200B99D1C /* FitlerCollectionViewCell.m */,
+				2D5FD55E1D06E89200B99D1C /* FitlerCollectionViewCell.xib */,
+				2D5FD5611D06ED8600B99D1C /* FitlerModel.h */,
+				2D5FD5621D06ED8600B99D1C /* FitlerModel.m */,
+				2D5FD5581D06D87400B99D1C /* FitlerScollView.h */,
+				2D5FD5591D06D87400B99D1C /* FitlerScollView.m */,
+				2D9733231D050D7E00ADDAB0 /* Main.storyboard */,
+				2D9733261D050D7F00ADDAB0 /* Assets.xcassets */,
+				2D9733281D050D8000ADDAB0 /* LaunchScreen.storyboard */,
+				2D97332B1D050D8000ADDAB0 /* Info.plist */,
+				2D5FD55B1D06E1FC00B99D1C /* PrefixHeader.pch */,
+				2D97331A1D050D7D00ADDAB0 /* Supporting Files */,
+			);
+			path = MeiPaiDemo;
+			sourceTree = "<group>";
+		};
+		2D97331A1D050D7D00ADDAB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D97331B1D050D7D00ADDAB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D9733161D050D7900ADDAB0 /* MeiPaiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D97332E1D050D8000ADDAB0 /* Build configuration list for PBXNativeTarget "MeiPaiDemo" */;
+			buildPhases = (
+				2D9733131D050D7900ADDAB0 /* Sources */,
+				2D9733141D050D7900ADDAB0 /* Frameworks */,
+				2D9733151D050D7900ADDAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeiPaiDemo;
+			productName = MeiPaiDemo;
+			productReference = 2D9733171D050D7900ADDAB0 /* MeiPaiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D97330F1D050D7700ADDAB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bfy;
+				TargetAttributes = {
+					2D9733161D050D7900ADDAB0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2D9733121D050D7700ADDAB0 /* Build configuration list for PBXProject "MeiPaiDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D97330E1D050D7600ADDAB0;
+			productRefGroup = 2D9733181D050D7900ADDAB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D9733161D050D7900ADDAB0 /* MeiPaiDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D9733151D050D7900ADDAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D97332A1D050D8000ADDAB0 /* LaunchScreen.storyboard in Resources */,
+				2D9733271D050D7F00ADDAB0 /* Assets.xcassets in Resources */,
+				2D5FD5601D06E89200B99D1C /* FitlerCollectionViewCell.xib in Resources */,
+				2D9733251D050D7E00ADDAB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D9733131D050D7900ADDAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5FD55A1D06D87400B99D1C /* FitlerScollView.m in Sources */,
+				2D5FD5631D06ED8600B99D1C /* FitlerModel.m in Sources */,
+				2D9733221D050D7E00ADDAB0 /* ViewController.m in Sources */,
+				2D5FD55F1D06E89200B99D1C /* FitlerCollectionViewCell.m in Sources */,
+				2D97331F1D050D7D00ADDAB0 /* AppDelegate.m in Sources */,
+				2D01B11F1D054B6500A1E24E /* EditImageViewController.m in Sources */,
+				2D97331C1D050D7D00ADDAB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D9733231D050D7E00ADDAB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D9733241D050D7E00ADDAB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D9733281D050D8000ADDAB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D9733291D050D8000ADDAB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D97332C1D050D8000ADDAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D97332D1D050D8000ADDAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D97332F1D050D8000ADDAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MeiPaiDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = MeiPaiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bfy.MeiPaiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D9733301D050D8000ADDAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MeiPaiDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = MeiPaiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bfy.MeiPaiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D9733121D050D7700ADDAB0 /* Build configuration list for PBXProject "MeiPaiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D97332C1D050D8000ADDAB0 /* Debug */,
+				2D97332D1D050D8000ADDAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D97332E1D050D8000ADDAB0 /* Build configuration list for PBXNativeTarget "MeiPaiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D97332F1D050D8000ADDAB0 /* Debug */,
+				2D9733301D050D8000ADDAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D97330F1D050D7700ADDAB0 /* Project object */;
+}

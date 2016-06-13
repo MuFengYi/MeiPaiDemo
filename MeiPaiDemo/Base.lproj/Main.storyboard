@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scnceimage" translatesAutoresizingMaskIntoConstraints="NO" id="1ow-8C-U92">
+                                <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bU6-sm-IOd">
+                                <rect key="frame" x="138" y="294" width="100" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="gyi-8u-XNW"/>
+                                    <constraint firstAttribute="width" constant="100" id="pXT-k2-aP5"/>
+                                </constraints>
+                                <state key="normal" title="美化照片">
+                                    <color key="titleColor" red="1" green="0.49202269720000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectPhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HaY-0X-YwI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuV-Eq-6tM">
+                                <rect key="frame" x="137" y="372" width="100" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.49202269720000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="hC9-za-fTM"/>
+                                    <constraint firstAttribute="width" constant="100" id="ptu-d0-bua"/>
+                                </constraints>
+                                <state key="normal" title="美化视频"/>
+                                <connections>
+                                    <action selector="selectVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fbj-ey-7v5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1ow-8C-U92" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="Bbm-Fe-y0N"/>
+                            <constraint firstItem="1ow-8C-U92" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="QQ8-pP-6fp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1ow-8C-U92" secondAttribute="trailing" constant="-20" id="Vbe-qj-HKW"/>
+                            <constraint firstItem="ZuV-Eq-6tM" firstAttribute="top" secondItem="bU6-sm-IOd" secondAttribute="bottom" constant="18" id="W4f-B7-VSa"/>
+                            <constraint firstItem="bU6-sm-IOd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-10" id="WkM-ru-fbl"/>
+                            <constraint firstItem="ZuV-Eq-6tM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bhl-e4-4xS"/>
+                            <constraint firstItem="bU6-sm-IOd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ee5-8P-fQY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1ow-8C-U92" secondAttribute="bottom" id="yvf-ak-ceV"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148.5" y="286.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="scnceimage" width="375" height="667"/>
+    </resources>
+</document>
